@@ -1,2 +1,2 @@
-# Creative-Work
-I hold a NOCTI certification in Advertising & Design from a career and technical education center. Many of my graphic design projects were in support of receiving that certification or as assignments for my coursework at Penn State. I also do some marketing work as president of Days for Girls at Penn State, an on-campus organization that sews reusable menstrual health kits. Finally, I included a portion of my team's national submission for the Digital Video Production competition of the Technology Student Association.
+# Data-Visualizations
+I hold a NOCTI certification in Advertising & Design from a career and technical education center. This folder includes data visualizations in D3.js and some other design work I have completed.
