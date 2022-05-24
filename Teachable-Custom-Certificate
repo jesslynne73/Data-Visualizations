@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+
+<div style="width:800px; height:600px; text-align:center; border: 50px solid #F0F0F0">
+<div style="width:701px; height:501px; padding:20px; left:20; text-align:center; border: 2px solid #D3D3D3">
+       <span style="font-size:30px; font-family: 'Aleo'; font-weight:bold; color:#ff9e00">Days for Girls International Ambassador of Women’s Health Online Course Certificate</span>
+       <br><br><br><br>
+       <span style="font-size:20px; font-family: 'Lora'">This certificate is awarded to</span>
+       <br><br>
+       <span style="font-size:30px; font-family:'Arial'"><b>{{ current_user.name }}</b></span><br/><br/>
+       <span style="font-size:20px; font-family: 'Lora'">in recognition of successfully completing Days for Girls Ambassador of Women’s Health 101 Course</span><br></br>
+       <br>
+       <span style="font-size:20px; font-family: 'Lora'">This certificate qualifies you to conduct Distribution trainings using the Days for Girls Ambassador of Women’s Health flipchart</span><br></br>
+
+  <br><br><br><br></br>
+  <div style="width:100%">
+    <div style="width=50%; float:left">
+      <img src = "https://drive.google.com/uc?export=view&id=1CBlqhloOhtYyWM_g8suJiTvq2SHVOGHW", height=90px>
+    </div>
+    <div style="width=50%; float:right">
+      <img src = "https://drive.google.com/uc?export=view&id=1U3v3xayJJbKyOMAKWWzFP43Sle8MBrpv", height=60px>
+    </div>
+  </div>
+  <br><br><br><br><br></br>
+  <div style="width:630px; text-align:right">
+    <span style="font-size:20px; font-family: 'Lora'">Chief Executive Officer</span>
+    
+  <div style="width:580px; text-align:right">
+          <span style="font-size:20px; font-family: 'Lora'">{{ course.report_card.certificate_issued_at | date: "%m-%d-%Y" }} </span>
+    </div>
+</div>
+</div>
+
+</html>
